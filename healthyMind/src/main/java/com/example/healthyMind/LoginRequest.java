@@ -1,19 +1,10 @@
 package com.example.healthyMind;
 
-public class AuthenticationRequest {
-
+public class LoginRequest {
     private String username;
     private String password;
 
-    // Constructors
-    public AuthenticationRequest() {}
-
-    public AuthenticationRequest(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-
-    // Getters and Setters
+    // Getters and setters
     public String getUsername() {
         return username;
     }
@@ -30,3 +21,4 @@ public class AuthenticationRequest {
         this.password = password;
     }
 }
+
